@@ -17,47 +17,56 @@ body {
     font-size: 1.6rem;
 }
 
-a {
-    text-decoration: none;
-}
 
 #container {
     max-width: 992px;
     margin: 0 auto;
 }
+
 /* ContainerMenu*/
+.containerMenu {
+    position: relative;
+}
 
 .titulo {
-    display: inline;
-    font-size:5rem;
+    display: inline-block;
+    font-size: 5rem;
 }
 
 nav{
-    display: inline;
-    z-index: 99;
-    position: relative;
-    top: 2.1rem;
-    margin-left: 40px;
+    display: inline-block;
+    position: absolute;
+    top: 5rem;
+    margin-left: 5rem;
 }
 
 a {
-    margin-right: 1.8rem;
-    font-size: 2rem;
     text-decoration: none;
     cursor: pointer;
 }
 
 .boton {
-    background-color:cornflowerblue;
+    margin-right: 0.4rem;
     padding: 0.2rem 1rem;
     border: 1px solid black;
-    border-radius: 0.3rem;
+    border-radius: 0.6rem;
+    background-color:cornflowerblue;
     color: white;
     font-weight: 700;
+    text-shadow: 1px 1px black;
+    font-size: 2rem;
 }
 
 .botonActivo {
-    background-color:lightblue ;
+    background-color:lightgreen ;
+}
+
+.boton:hover {
+    background-color: lightgreen;
+}
+
+.boton:active{
+    background-color: cornflowerblue;
 }
 
 /* Banner + menuTitulo */
@@ -75,6 +84,7 @@ a {
     font-size: 3rem;
     font-weight: 700;
     border: 1px solid black;
+    background-color: white;
 }
 
 /* Aside y Main */
@@ -83,19 +93,23 @@ a {
     margin-top: 2rem;
     font-size: 1.8rem;
 }
+
 aside {
-    position: absolute;
-    /* display: inline-block; */
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 50% 20% 20%;
 }
 
 main {
-    position:absolute;
-    margin-left: 15rem;
-    /* display: inline-block; */
+    display: inline-block;
+    position: absolute;
+    margin-left: 3rem;
+}
+
+/* Main */
+article {
+    margin-bottom: 1rem;
 }
 article>p {
     margin-left: 1rem;
-}
-section>h2{
-    margin-bottom: 1rem;
 }
