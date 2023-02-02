@@ -85,7 +85,7 @@ a {
 }
 
 /* Logo en Aside y Main */
-.contenido {
+main {
     display: flex;
     font-size: 1.8rem;
 }
