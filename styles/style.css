@@ -15,10 +15,6 @@ html {
 body {    
     font-family: 'Rajdhani', sans-serif;
     font-size: 1.6rem;
-}
-
-
-#container {
     max-width: 992px;
     margin: 0 auto;
 }
@@ -85,25 +81,22 @@ a {
     font-weight: 700;
     border: 1px solid black;
     background-color: white;
+    margin-bottom: 2rem;
 }
 
 /* Aside y Main */
 .contenido {
-    position: relative;
-    margin-top: 2rem;
-    font-size: 1.8rem;
+    display: flex;
 }
 
-aside {
-    display: inline-block;
+.logo {
     border: 1px solid;
     border-radius: 50% 20% 20%;
 }
 
 main {
-    display: inline-block;
-    position: absolute;
     margin-left: 3rem;
+    font-size: 1.8rem;
 }
 
 /* Main */
@@ -126,8 +119,13 @@ ul, ol {
     margin-top: 1rem;
 }
 
-ul {
-    list-style-type: "      ";
+.descripcion-lista {
+    text-indent: 2rem;
+}
+
+dt {
+    font-weight: bold;
+    font-size: 2.11rem;
 }
 
 ol>li {
@@ -181,7 +179,7 @@ td[rowspan], tr:last-child>td {
 }
 
 .third-col {
-padding-right: 8rem;
+    padding-right: 8rem;
 }
 
 .extra-info {
