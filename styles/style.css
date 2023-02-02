@@ -84,9 +84,10 @@ a {
     margin-bottom: 2rem;
 }
 
-/* Aside y Main */
+/* Logo en Aside y Main */
 .contenido {
     display: flex;
+    font-size: 1.8rem;
 }
 
 .logo {
@@ -94,12 +95,11 @@ a {
     border-radius: 50% 20% 20%;
 }
 
-main {
+/* Section */
+section, .section-contact{
     margin-left: 3rem;
-    font-size: 1.8rem;
 }
 
-/* Main */
 article {
     margin-bottom: 1rem;
 }
@@ -128,7 +128,7 @@ dt {
     font-size: 2.11rem;
 }
 
-ol>li {
+ol>li, dl {
     margin-bottom: 3rem;
 }
 
