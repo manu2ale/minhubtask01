@@ -15,10 +15,6 @@ html {
 body {    
     font-family: 'Rajdhani', sans-serif;
     font-size: 1.6rem;
-}
-
-
-#container {
     max-width: 992px;
     margin: 0 auto;
 }
@@ -89,9 +85,6 @@ a {
 
 /* Aside y Main */
 .contenido {
-    position: relative;
-    margin-top: 2rem;
-    font-size: 1.8rem;
 }
 
 aside {
@@ -101,9 +94,16 @@ aside {
 }
 
 main {
+    position: relative;
+    margin-top: 2rem;
+}
+
+section, .section-contact {
     display: inline-block;
     position: absolute;
     margin-left: 3rem;
+    font-size: 1.8rem;
+
 }
 
 /* Main */
