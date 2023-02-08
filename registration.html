@@ -33,7 +33,7 @@
         <aside>
             <img class="logo" src="./assets/Logo-Mighty-ducks-01.png" alt="League Logo" width="120">
         </aside>
-        <section class="section-form">
+        <div class="section-form">
             <form action="./show_data.html" method="get">
                 <fieldset>
                     <legend>Personal Information</legend>
@@ -63,13 +63,15 @@
                             <input type="date" name="birth_date" required>
                         </label>
                     </div>
-                    
+
+                    <span>Gender:</span>
                     <div class="personal-info__radio">
-                        <legend>Gender:</legend>
                         <label><input type="radio" name="gender" value="female" required checked>Female</label>
                         <label><input type="radio" name="gender" value="male">Male</label>
-        
-                        <legend>Grade:</legend>
+                    </div>
+
+                    <span>Grade:</span>
+                    <div class="personal-info__radio">
                         <label><input type="radio" name="grade" value="pre_school" required checked>Pre-School</label>
                         <label><input type="radio" name="grade" value="1st">1st</label>
                         <label><input type="radio" name="grade" value="2nd">2nd</label>
@@ -108,7 +110,8 @@
                 <fieldset>
                     <legend>Uniform Size</legend>
                     <div class="uniform">
-                        <label><input type="radio" name="uniform_size" value="youth_small" required checked>Youth Small</label>
+                        <label><input type="radio" name="uniform_size" value="youth_small" required checked>Youth
+                            Small</label>
                         <label><input type="radio" name="uniform_size" value="youth_medium">Youth Medium</label>
                         <label><input type="radio" name="uniform_size" value="youth_large">Youth Large</label>
                         <label><input type="radio" name="uniform_size" value="small">Small</label>
@@ -138,11 +141,11 @@
                     <div class="permission">
                         <label>Parent/Guardian: <input type="text" name="parent_guardian" required></label>
                         <label>Date: <input type="date" name="date" required></label>
-                        <input type="submit" value="SUBMIT">                    
+                        <input type="submit" value="SUBMIT">
                     </div>
                 </fieldset>
             </form>
-        </section>
+        </div>
     </main>
 </body>
 
